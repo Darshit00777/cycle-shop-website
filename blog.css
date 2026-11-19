@@ -1,0 +1,119 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-link:hover {
+    color: red !important;
+
+}
+
+.dropdown-item:hover {
+    color: red !important;
+    background-color: black !important;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(252, 250, 250);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.blog-details{
+    margin-top: 100px;
+}
+
+.blog-text{
+    border-radius: 10px;
+}
+
+.search-input{
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.search-input input{
+    width: 100%;
+    border: none;
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+.search-input button{
+    background: red;
+    border: none;
+    padding: 0 20px;
+}
+
+.search-input button img{
+    width: 20px;
+}
+
+.category-item{
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number{
+    background: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.post-item{
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.post-item img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tag{
+    gap: 20px;
+}
+
+.tag p{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.comment{
+    margin-top: 100px;
+}
+
+.form-control{
+    border: 2px solid red !important;
+}
